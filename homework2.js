@@ -1,4 +1,4 @@
-const celsiusToFahrenheit = (celsius) => celsius * (9 / 5) + 32;
+const celsiusToFahrenheit = celsius => celsius * (9 / 5) + 32;
 
 const celsiusTemperature = -10;
 const fahrenheitTemperature = celsiusToFahrenheit(celsiusTemperature);
