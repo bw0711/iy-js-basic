@@ -8,7 +8,7 @@ const calculateFactorial = () => {
             break;
         }
 
-        console.log("Please enter a valid number within the range of 1 to 50.");
+        alert("Please enter a valid number within the range of 1 to 50.");
     }
 
     let factorial = 1;
