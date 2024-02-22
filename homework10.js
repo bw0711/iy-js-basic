@@ -1,4 +1,4 @@
-const createCity = (keys) => {
+const createCity = keys => {
     return keys.reduce((acc, key) => {
         acc[key] = prompt(`Enter ${key}:`);
         return acc;
